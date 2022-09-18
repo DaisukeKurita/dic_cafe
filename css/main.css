@@ -1,0 +1,173 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.store_name {
+  line-height:200px;
+  background-color: #42210b;
+}
+.key h1 {
+  font-size: 2.5rem;
+}
+.key div {
+  flex-direction: column;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.entire_menu {
+  background: center / auto no-repeat url("../images/sample_menu_bg.jpg");
+  background-attachment: fixed;
+  padding: 50px 100px;
+}
+.section_contents {
+  display: flex;
+  justify-content: space-between;
+}
+.section_contents p {
+  width: 60%;
+}
+.section_contents img {
+  width: 35%;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+.pancake {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.pancake_details {
+  display: flex;
+  width: 49%;
+  background-color: #fff;
+}
+.pancake img {
+  width: 55%;
+}
+.drink {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin: 20px;
+  padding: 10px;
+}
+.drink_details {
+  display: flex;
+  width: 49%;
+}
+.drink_details div {
+ width: 80%;
+}
+.drink_details img {
+  width: 20%;
+}
+dt {
+  float: left;
+  width: 80px;
+}
+dd {
+  margin-left: 80px;
+}
+iframe {
+  width: 100%;
+}
+footer {
+  background-color: #251e19;
+  color: white;
+  height: 75px;
+  /* display: flex; */
+}
+footer a {
+  padding: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.footer_menu {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  
+}
+footer p {
+  text-align: center;
+  font-size: 10px;
+}
+footer img {
+  height: 18px;
+}
