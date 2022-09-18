@@ -6,6 +6,7 @@ body {
   position: relative;
   padding-bottom: 75px;
   min-height: 100%;
+  position: relative;
 }
 li {
   list-style: none;
@@ -151,7 +152,8 @@ footer {
   background-color: #251e19;
   color: white;
   height: 75px;
-  /* display: flex; */
+  position: absolute;
+  width: 100%;
 }
 footer a {
   padding: 0 10px;
